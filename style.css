@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #fffafa;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 28px 12%;
+    transition: all .50s ease;
+   
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+
+}
+.navbar a{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all .50s ease;
+}
+
+.navbar a:hover{
+    color: green;
+
+
+}
+.navbar a.active{
+    color: purple;
+}
+
+.main{
+    display: flex;
+    padding-right: 100px;
+    padding-bottom: 13px;
+    align-items: center;
+
+}
+
+.main a{
+    color: purple;
+    margin-right: 25px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all .50s ease;
+}
+
+.main a:hover{
+    color: green;
+
+}
+
+.gratis{
+    color: green;
+    font-size: 25px;
+}
+
+.d-block{
+    padding-top: 160px;
+}
+
+.banner{
+    display: flex;
+    background-color: #f2dede;
+    text-align: center;
+    font-size: 22px;
+    padding-left: 450px;
+}
+
+.banner h1{
+    color: #a94442;
+}
+
+.card-group{
+    text-align: center;
+}
+
+
+.sustenta{
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sustentah1{
+    color: purple;
+    padding-top: 300px;
+    align-items: center;
+    text-align: center;
+}
+
+.sustentah1 h1{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
